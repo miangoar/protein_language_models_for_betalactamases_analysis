@@ -11,10 +11,13 @@ centered
 </p>
 
 
-# Biological properties detected by protein language models   
+## Biological properties detected by protein language models   
 
 
-![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe1.png)
+
+<p align="center">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe1.png" alt="Texto alternativo">
+</p>
 
 | Notebook | Brief descripcion | 
 |-----------|-----------| 
@@ -24,9 +27,11 @@ centered
 | [notebook 1 ]() | xxx |
 | [notebook 1 ]() | xxx |
 
-# Structural and functional analysis between beta lactam antibiotics and beta lactamases   
+## Structural and functional analysis between beta lactam antibiotics and beta lactamases   
 
-![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe2.png)
+<p align="center">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe2.png" alt="Texto alternativo">
+</p>
 
 | Notebook | Brief descripcion | 
 |-----------|-----------| 
