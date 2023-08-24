@@ -2,7 +2,7 @@
 
 **🚨🚨🚨 WARNING - Repository under construction - WARNING🚨🚨🚨**
 
-![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/unam.png)
+![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/ibt.png)
 
 
 This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. 
