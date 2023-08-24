@@ -35,7 +35,7 @@ To create this dataset i used two manually curated databases for betalactamases:
 The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BLDB and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND).  
 
 <p align="center">
-  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas" alt="Texto alternativo">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas.png" alt="Texto alternativo">
 </p>
 
 ## Content by directories   
