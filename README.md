@@ -5,10 +5,10 @@
 ![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/ibt.png)
 
 
-This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. The thesis is availabe at:  🚨 *pending to upload* 🚨
+This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. The thesis is divided in two parts and is availabe at:  🚨 *pending to upload* 🚨
 
 
-## Biological properties detected by protein language models   
+## First part: Biological properties detected by protein language models   
 
 
 In the first part of this thesis i constructed a dataset (provided as a dataframe) that consist in ~26,000 betalactamase sequences with cualitative and cuantitative properties as well as the per-protein embeddings derived from seven protein language models. 
@@ -37,6 +37,40 @@ The cuantitative properties were generated with the [ProtParam module of bioPyth
 <p align="center">
   <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas.png" alt="Texto alternativo">
 </p>
+
+
+
+
+
+
+
+
+<p align="center">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe1.png" alt="Texto alternativo">
+</p>
+
+| Notebook | Brief descripcion | 
+|-----------|-----------| 
+| [notebook 1 ](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
+| [notebook 1 ]() | xxx |
+| [notebook 1 ]() | xxx |
+| [notebook 1 ]() | xxx |
+| [notebook 1 ]() | xxx |
+
+## Second part: Structural and functional analysis between beta lactam antibiotics and beta lactamases   
+
+<p align="center">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe2.png" alt="Texto alternativo">
+</p>
+
+| Notebook | Brief descripcion | 
+|-----------|-----------| 
+| [notebook 1 ](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
+| [notebook 1 ]() | xxx |
+| [notebook 1 ]() | xxx |
+| [notebook 1 ]() | xxx |
+| [notebook 1 ]() | xxx |
+
 
 ## Content by directories   
 
@@ -70,34 +104,3 @@ Here is a detaled information about each one of the directories of this resposit
   - tanimoto
   - training
 * images: some images for illustration purposes
-
-
-
-
-
-
-<p align="center">
-  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe1.png" alt="Texto alternativo">
-</p>
-
-| Notebook | Brief descripcion | 
-|-----------|-----------| 
-| [notebook 1 ](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-
-## Structural and functional analysis between beta lactam antibiotics and beta lactamases   
-
-<p align="center">
-  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe2.png" alt="Texto alternativo">
-</p>
-
-| Notebook | Brief descripcion | 
-|-----------|-----------| 
-| [notebook 1 ](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
