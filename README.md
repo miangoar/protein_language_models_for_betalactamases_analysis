@@ -22,6 +22,7 @@ In this thesis i constructed a dataset (provided as a dataframe) that consist in
 | taxonomy | Annotation at the level of Phylum, Class, Order, Family, Genus and Species against the Genome Taxonomy Database. | cualitative|
 | reference sets | Ancestors and consensus sequences. | cualitative|
 | molecular classification (Ambler) | Labels corresponding to classes (A, C and D), subclasses (A1, A2, B1, B2, B3. C1, C2), families (290 different) and subfamilies (44 within class D). | cualitative|
+|per-protein embeddings from protein language models|ESM familiy: ESM and ESM1-b. ProtTrans familiy: XLNet, Prot-T5-BFD and Prot-T5XL-U50. CNN language model: CARP640M. biLSTM language mode: Bepler| vectors|
 
 To create this dataset i used two manually curated databases for betalactamases:
 1. For sequences: [Beta-lactamase database (BLDB) - structure and function](https://pubmed.ncbi.nlm.nih.gov/28719998/)
