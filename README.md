@@ -3,7 +3,9 @@
 **🚨🚨🚨 WARNING - Repository under construction - WARNING🚨🚨🚨**
 
 ![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/ibt.png)
-
+<p align="center">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas.png" alt="Texto alternativo">
+</p>
 
 This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. The thesis is divided in two parts and is availabe at:  🚨 *pending to upload* 🚨
 
@@ -34,9 +36,7 @@ To create this dataset i used two manually curated databases for betalactamases:
 
 The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BLDB and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND).  
 
-<p align="center">
-  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas.png" alt="Texto alternativo">
-</p>
+
 
 
 
