@@ -7,7 +7,11 @@
 
 This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. The thesis is availabe at: *pending to upload*
 
-In this thesis i constructed a dataset (provided as a dataframe) that consist in ~26,000 betalactamase sequences with cualitative and cuantitative properties as well as the per-protein embeddings derived from seven protein language models. 
+
+## Biological properties detected by protein language models   
+
+
+In the first part of this thesis i constructed a dataset (provided as a dataframe) that consist in ~26,000 betalactamase sequences with cualitative and cuantitative properties as well as the per-protein embeddings derived from seven protein language models. 
 
 | Properties | Brief description | Type |
 |-----------|-----------|-----------|  
@@ -29,6 +33,12 @@ To create this dataset i used two manually curated databases for betalactamases:
 2. For functional measurements: [An Integrative Database of β-Lactamase Enzymes: Sequences, Structures, Functions, and Phylogenetic Trees](https://pubmed.ncbi.nlm.nih.gov/30783007/)
 
 The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BLDB and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND).  
+
+<p align="center">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas" alt="Texto alternativo">
+</p>
+
+## Content by directories   
 
 Here is a detaled information about each one of the directories of this respository:
 * notebooks: a series of juýter notebooks that i used to analyze betalactamase sequences using protein language models.
@@ -61,12 +71,8 @@ Here is a detaled information about each one of the directories of this resposit
   - training
 * images: some images for illustration purposes
 
-<p align="center">
-  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/class_a.png" alt="Texto alternativo">
-</p>
 
 
-## Biological properties detected by protein language models   
 
 
 
