@@ -56,21 +56,21 @@ The next noteboks contain the code used to perform this analysis
 
 ## Second part: Structural and functional analysis between beta lactam antibiotics and beta lactamases   
 
-In the second part of this thesis i constructed a dataset (provided as a dataframe) that consist in 2,383 values of minimum inhibitory concentrations of 21 beta lactam antibiotics and their associated betalactamases. The date comes from a  [second manually curated database for betalactamases that contain functional information](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6496087/). 
+In the second part of this thesis i constructed a dataset (provided as a dataframe) that consist in 2,383 values of minimum inhibitory concentrations (MICs) of 21 beta lactam antibiotics and their associated betalactamases. The date comes from a  [second manually curated database for betalactamases that contain functional information](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6496087/). 
 
 <p align="center">
   <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe2.png" alt="Texto alternativo">
 </p>
 
-*This dataset was merged with the dataset of the first part of my thesis and the MICs values were normalized with a log2 transformation of the fold change values of the effect of the betalactam in the MIC assay. A total ofe [50 betalactam antibiotics curated by this databs](https://pubmed.ncbi.nlm.nih.gov/25475113/) were analyzed using their SMILES in order to calculate the pairwise Tanimoto similarity score between them*
+*This dataset was merged with the dataset of the first part of my thesis and the MICs values were normalized with a log2 transformation of the fold change values of the effect of the betalactam in the MIC assay. A total ofe [50 betalactam antibiotics curated by this databs](https://pubmed.ncbi.nlm.nih.gov/25475113/) were analyzed using their SMILES in order to calculate the pairwise Tanimoto similarity score between them. This structural data was compared with the functional data derived from the MICs. Finally, a comparison of the performance between the seven protein language models was performed in order to find the best model. With this best model a regression model was trained using the NuSVR regressor in order to predict the resisntece level of all of the betalactamases from the first part of this thesis*
 
-| Notebook | Brief descripcion | 
-|-----------|-----------| 
-| [notebook 1 ](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
+| Notebooks |
+|-----------|
+| [Create the functional dataset](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/06_Create_functional_datasets.ipynb) |
+| [Tanimoto similarity analysis](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/07_SMILES_analysis_Tanimoto.ipynb) | 
+| [Functional analysis](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/08_Functional_datasets_analysis.ipynb) | 
+| [pending](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/) | 
+| [pending ](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/) | 
 
 
 ## Content by directories   
