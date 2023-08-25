@@ -35,32 +35,24 @@ In the first part of this thesis i constructed a dataset (provided as a datafram
 | molecular classification (Ambler) | Labels corresponding to classes (A, C and D), subclasses (A1, A2, B1, B2, B3. C1, C2), families (290 different) and subfamilies (44 within class D). | cualitative|
 |per-protein embeddings from protein language models|ESM familiy: ESM and ESM1-b. ProtTrans familiy: XLNet, Prot-T5-BFD and Prot-T5XL-U50. CNN language model: CARP640M. biLSTM language mode: Bepler| vectors|
 
-To create this dataset i used two manually curated databases for betalactamases:
-1. For sequences: [Beta-lactamase database (BLDB) - structure and function](https://pubmed.ncbi.nlm.nih.gov/28719998/)
-2. For functional measurements: [An Integrative Database of β-Lactamase Enzymes: Sequences, Structures, Functions, and Phylogenetic Trees](https://pubmed.ncbi.nlm.nih.gov/30783007/)
-
-The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BLDB and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND).  
-
-
-
-
-
-
-
-
+To create this dataset i used [this manually curated databases for betalactamases](https://pubmed.ncbi.nlm.nih.gov/28719998/). The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BetaLactamaseDataBase and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND). The next diagram shows general strategy used in order to analyze the betalactamse sequences:  
 
 
 <p align="center">
-  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe1.png" alt="Texto alternativo">
+  <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe1.png" alt="hooooolaaaaa">
 </p>
+
+*A total of 25,809 sequences curated by BLDB were analyzed, this DB recognizes 290 enzymatic families. All sequences that did not map to these families were labeled as "Others." As references, signature sequences were estimated for each (sub)class of beta-lactamases (7 sequences), and sequences from ancestors and a consensus were included (5 sequences). Additionally, 201 sequences from a putative new subclass of metallo-beta-lactamases called VarG and the beta-lactamase LRA-5, which has been suggested as a representative of a putative new subclass A3, were included. For a total of 26,023 sequences, protein-level embeddings were extracted conventionally using seven protein language models. To visualize the derived organization from the embeddings, three dimensionality reduction algorithms were used to create two dimensions in which different qualitative and quantitative properties were mapped. Finally, a random sampling of 100 sequences was performed for each (sub)class, and their embeddings were analyzed using two different distance metrics and k-means to evaluate the detection capability of the beta-lactamase classes.*
+
+The next noteboks contain the code used to perform this analysis
 
 | Notebook | Brief descripcion | 
 |-----------|-----------| 
-| [notebook 1 ](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
-| [notebook 1 ]() | xxx |
+| [Create the sequence dataset](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
+| [Generate per protein embeddings](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/02_Generate_embeddings_from_protein_language_models.ipynb) | xxx |
+| [dimensionality reduction with PCA](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/03_DimRedu_PCA.ipynb) | xxx |
+| [dimensionality reduction with tSNE](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/04_DimRedu_tSNE.ipynb) | xxx |
+| [dimensionality reduction with UMAP](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/05_DimRedu_UMAP_and_panels.ipynb) | xxx |
 
 ## Second part: Structural and functional analysis between beta lactam antibiotics and beta lactamases   
 
@@ -75,6 +67,8 @@ The cuantitative properties were generated with the [ProtParam module of bioPyth
 | [notebook 1 ]() | xxx |
 | [notebook 1 ]() | xxx |
 | [notebook 1 ]() | xxx |
+
+ For functional measurements: [An Integrative Database of β-Lactamase Enzymes: Sequences, Structures, Functions, and Phylogenetic Trees](https://pubmed.ncbi.nlm.nih.gov/30783007/)
 
 
 ## Content by directories   
