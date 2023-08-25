@@ -1,4 +1,4 @@
-# protein language models for betalactamases analysis
+# Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity
 
 **🚨🚨🚨 WARNING - Repository under construction - WARNING🚨🚨🚨**
 
