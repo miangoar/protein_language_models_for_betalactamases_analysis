@@ -7,7 +7,12 @@
   <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas.png" alt="Texto alternativo">
 </p>
 
-This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. The thesis is divided in two parts and is availabe at:  🚨 *pending to upload* 🚨
+This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. 
+
+The thesis is divided in two parts and is availabe at:  🚨 *pending to upload* 🚨
+
+Another part of this thesis is [this repository](https://github.com/miangoar/ciencia-de-proteinas-basada-en-IA
+) were you can find some video lecures, tutorials and other resources in order to promote the use of machine learning approaches in protein science for spanish speakers. The video lectures are mainly aimed to undergrad colleagues. 
 
 
 ## First part: Biological properties detected by protein language models   
