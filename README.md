@@ -46,19 +46,23 @@ To create this dataset i used [this manually curated database for betalactamases
 
 The next noteboks contain the code used to perform this analysis
 
-| Notebook | Brief descripcion | 
-|-----------|-----------| 
-| [Create the sequence dataset](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) | xxx |
-| [Generate per protein embeddings](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/02_Generate_embeddings_from_protein_language_models.ipynb) | xxx |
-| [dimensionality reduction with PCA](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/03_DimRedu_PCA.ipynb) | xxx |
-| [dimensionality reduction with tSNE](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/04_DimRedu_tSNE.ipynb) | xxx |
-| [dimensionality reduction with UMAP](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/05_DimRedu_UMAP_and_panels.ipynb) | xxx |
+| Notebook |
+|-----------|
+| [Create the sequence dataset](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/01_Create_sequence_dataset.ipynb) |
+| [Generate per protein embeddings](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/02_Generate_embeddings_from_protein_language_models.ipynb) |
+| [dimensionality reduction with PCA](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/03_DimRedu_PCA.ipynb) | 
+| [dimensionality reduction with tSNE](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/04_DimRedu_tSNE.ipynb) | 
+| [dimensionality reduction with UMAP](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/notebooks/05_DimRedu_UMAP_and_panels.ipynb) | 
 
 ## Second part: Structural and functional analysis between beta lactam antibiotics and beta lactamases   
+
+In the second part of this thesis i constructed a dataset (provided as a dataframe) that consist in 2,383 values of minimum inhibitory concentrations of 21 beta lactam antibiotics and their associated betalactamases. The date comes from a  [second manually curated database for betalactamases that contain functional information](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6496087/). 
 
 <p align="center">
   <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe2.png" alt="Texto alternativo">
 </p>
+
+*This dataset was merged with the dataset of the first part of my thesis and the MICs values were normalized with a log2 transformation of the fold change values of the effect of the betalactam in the MIC assay. A total ofe [50 betalactam antibiotics curated by this databs](https://pubmed.ncbi.nlm.nih.gov/25475113/) were analyzed using their SMILES in order to calculate the pairwise Tanimoto similarity score between them*
 
 | Notebook | Brief descripcion | 
 |-----------|-----------| 
@@ -67,8 +71,6 @@ The next noteboks contain the code used to perform this analysis
 | [notebook 1 ]() | xxx |
 | [notebook 1 ]() | xxx |
 | [notebook 1 ]() | xxx |
-
- For functional measurements: [An Integrative Database of β-Lactamase Enzymes: Sequences, Structures, Functions, and Phylogenetic Trees](https://pubmed.ncbi.nlm.nih.gov/30783007/)
 
 
 ## Content by directories   
