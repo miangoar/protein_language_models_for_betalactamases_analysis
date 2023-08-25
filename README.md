@@ -35,7 +35,7 @@ In the first part of this thesis i constructed a dataset (provided as a datafram
 | molecular classification (Ambler) | Labels corresponding to classes (A, C and D), subclasses (A1, A2, B1, B2, B3. C1, C2), families (290 different) and subfamilies (44 within class D). | cualitative|
 |per-protein embeddings from protein language models|ESM familiy: ESM and ESM1-b. ProtTrans familiy: XLNet, Prot-T5-BFD and Prot-T5XL-U50. CNN language model: CARP640M. biLSTM language mode: Bepler| vectors|
 
-To create this dataset i used [this manually curated databases for betalactamases](https://pubmed.ncbi.nlm.nih.gov/28719998/). The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BetaLactamaseDataBase and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND). The next diagram shows general strategy used in order to analyze the betalactamse sequences:  
+To create this dataset i used [this manually curated database for betalactamases](https://pubmed.ncbi.nlm.nih.gov/28719998/). The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BetaLactamaseDataBase and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND). The next diagram shows general strategy used in order to analyze the betalactamse sequences:  
 
 
 <p align="center">
