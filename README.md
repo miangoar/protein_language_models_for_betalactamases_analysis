@@ -1,22 +1,25 @@
+### <div align="center">  :construction::construction::construction::construction: REPOSITORY UNDER CONSTRUCTION :construction::construction::construction::construction: </div>
+
 # Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity
 
-
-### <div align="center">  :construction::construction::construction::construction: REPOSITORY UNDER CONSTRUCTION :construction::construction::construction::construction: </div>
 
 ![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/ibt.png)
 <p align="center">
   <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/blas.png" alt="Texto alternativo">
 </p>
 
-This repository is part of the thesis "*Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity*" that i have defended in order to get my master's degree in Biochemical Sciences. 
+# Introduction 
 
-The thesis is divided in two parts and is availabe at:  🚨 *pending to upload* 🚨
+Betalactamases are enzymes that confer resistance to betalactam antibiotics. These enzymes have two classification schemes. The functional classification organizes them based on their ability to degrade antibiotics and has been constructed with clinically relevant betalactamases. The molecular classification organizes them based on their sequences and structures and has been constructed using classical bioinformatics tools. Here we evaluated both classification schemes using protein language models. In the first part of the study, we assessed the ability of these algorithms to detect betalactamase groups, along with other properties, to examine the type of information detected. In the second part, we evaluated the ability of protein language models to predict catalytic activity against 21 sets of betalactam antibiotics.
 
-Another part of this thesis is [this repository](https://github.com/miangoar/ciencia-de-proteinas-basada-en-IA
-) were you can find some video lecures, tutorials and other resources in order to promote the use of machine learning approaches in protein science for spanish speakers. The video lectures are mainly aimed to undergrad colleagues. 
+The results of the first part suggest that protein language models like ESM-1b can detect multiple biological signals. The results of the second part suggest that penicillins are more commonly degraded substrates by betalactamases compared to other betalactam antibiotics due to their considerable structural similarity. Additionally, we were able to train a single regressor for Cefoxitin that generates predictions consistent with experiments, making this model a useful tool. To our knowledge, this is the first study that  analyzed the molecular and functional classifications of betalactamases using protein language models and we hope serves as a reference.
+
+This repository is part of my master's thesis in Biochemical Sciences availabe at:  🚨 *PENDING TO BE PUBLISHED* 🚨
+
+Another part of this thesis is [this repository](https://github.com/miangoar/ciencia-de-proteinas-basada-en-IA) were you can find some video lecures, tutorials and other resources in order to promote the use of machine learning approaches in protein science for spanish speakers. The video lectures are mainly aimed to undergrad colleagues. 
 
 
-## First part: Biological properties detected by protein language models   
+## Workflow (First part): Biological properties detected by protein language models   
 
 
 In the first part of this thesis i constructed a dataset (provided as a dataframe) that consist in ~26,000 betalactamase sequences with qualitative and quantitative properties as well as their respective per-protein embeddings derived from seven protein language models. 
