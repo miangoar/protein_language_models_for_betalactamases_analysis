@@ -1,4 +1,4 @@
-### <div align="center">  :construction::construction::construction::construction: REPOSITORY UNDER CONSTRUCTION :construction::construction::construction::construction: </div>
+### <div align="center">  :construction::construction: REPOSITORY UNDER CONSTRUCTION :construction::construction: </div>
 
 # Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity
 
@@ -16,8 +16,9 @@ The results of the first part suggest that protein language models like ESM-1b c
 
 This repository is part of my master's thesis in Biochemical Sciences availabe at:  🚨 *PENDING TO BE PUBLISHED* 🚨
 
-Another part of this thesis is [this repository](https://github.com/miangoar/ciencia-de-proteinas-basada-en-IA) were you can find some video lecures, tutorials and other resources in order to promote the use of machine learning approaches in protein science for spanish speakers. The video lectures are mainly aimed to undergrad colleagues. 
+Another part of this thesis is [this repository](https://github.com/miangoar/ciencia-de-proteinas-basada-en-IA) with some video lecures, tutorials and other resources in order to promote the use of machine learning approaches in protein science for spanish speakers. The video lectures are mainly aimed to undergrad colleagues. 
 
+[![Ciencia de proteínas basada en IA](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/ia_prot.png)](https://github.com/miangoar/ciencia-de-proteinas-basada-en-IA)
 
 ## Workflow (First part): Biological properties detected by protein language models   
 
