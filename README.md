@@ -18,24 +18,25 @@ Another part of this thesis is [this repository](https://github.com/miangoar/cie
 ## First part: Biological properties detected by protein language models   
 
 
-In the first part of this thesis i constructed a dataset (provided as a dataframe) that consist in ~26,000 betalactamase sequences with cualitative and cuantitative properties as well as the per-protein embeddings derived from seven protein language models. 
+In the first part of this thesis i constructed a dataset (provided as a dataframe) that consist in ~26,000 betalactamase sequences with qualitative and quantitative properties as well as their respective per-protein embeddings derived from seven protein language models. 
 
+**Table 1. Cuantitative and cualitative properties derived for betalactamase sequences**
 | Properties | Brief description | Type |
 |-----------|-----------|-----------|  
-| sequence length | the number of residues in a protein | cuantitative|
-| molecular weight | summatory of the molecular weight (in Daltons) of each of the residues | cuantitative| 
-| aromaticity | Fraction of amino acids with aromatic properties (F, W, Y) in the sequence |cuantitative|
-| instability | Protein instability estimated from the frequency of low and high stability dipeptides observed in stable and unstable proteins. Values >40 mean that the protein is unstable (has a short half-life). | cuantitative|
-| hydropathy (gravy) | It is estimated as the sum of the hydropathy of each residue divided by the length of the sequence. | cuantitative|
-| entropy | Estimation of the diversity of the sequence composition. Low values mean less diversity of amino acids in the composition. A sequence with minimum entropy is a sequence composed of only one type of residue, while a sequence with maximum entropy has all possible residues in equal proportions. | cuantitative|
-| isoelectric point | Estimation of the pH at which the protein has no net electrical charge | cuantitative|
-| secondary structure | Estimates made from the fraction of residues associated with helix (V, I, Y, F, W, L), beta folded (E, M, A, L) and turn (N, P, G, S) regions. | cuantitative|
-| taxonomy | Annotation at the level of Phylum, Class, Order, Family, Genus and Species against the Genome Taxonomy Database. | cualitative|
-| reference sets | Ancestors and consensus sequences. | cualitative|
-| molecular classification (Ambler) | Labels corresponding to classes (A, C and D), subclasses (A1, A2, B1, B2, B3. C1, C2), families (290 different) and subfamilies (44 within class D). | cualitative|
-|per-protein embeddings from protein language models|ESM familiy: ESM and ESM1-b. ProtTrans familiy: XLNet, Prot-T5-BFD and Prot-T5XL-U50. CNN language model: CARP640M. biLSTM language mode: Bepler| vectors|
+| sequence length | the number of residues in a protein | quantitative|
+| molecular weight | summatory of the molecular weight (in Daltons) of each of the residues | quantitative| 
+| aromaticity | Fraction of amino acids with aromatic properties (F, W, Y) in the sequence |quantitative|
+| instability | Protein instability estimated from the frequency of low and high stability dipeptides observed in stable and unstable proteins. Values >40 mean that the protein is unstable (has a short half-life). | quantitative|
+| hydropathy (gravy) | It is estimated as the sum of the hydropathy of each residue divided by the length of the sequence. | quantitative|
+| entropy | Estimation of the diversity of the sequence composition. Low values mean less diversity of amino acids in the composition. A sequence with minimum entropy is a sequence composed of only one type of residue, while a sequence with maximum entropy has all possible residues in equal proportions. | quantitative|
+| isoelectric point | Estimation of the pH at which the protein has no net electrical charge | quantitative|
+| secondary structure | Estimates made from the fraction of residues associated with helix (V, I, Y, F, W, L), beta folded (E, M, A, L) and turn (N, P, G, S) regions. | quantitative|
+| taxonomy | Annotation at the level of Phylum, Class, Order, Family, Genus and Species against the Genome Taxonomy Database. | qualitative|
+| reference sets | Ancestors and consensus sequences. | qualitative|
+| molecular classification (Ambler) | Labels corresponding to classes (A, C and D), subclasses (A1, A2, B1, B2, B3. C1, C2), families (290 different) and subfamilies (44 within class D). | qualitative|
+|per-protein embeddings from protein language models|ESM familiy: ESM and ESM1-b. <br> ProtTrans familiy: XLNet, Prot-T5-BFD and Prot-T5XL-U50. <br> CNN language model: CARP640M. <br> biLSTM language mode: Bepler| per-protein embeddings|
 
-To create this dataset i used [this manually curated database for betalactamases](https://pubmed.ncbi.nlm.nih.gov/28719998/). The cuantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The cualitative properties were extracted by scrapping the text of the BetaLactamaseDataBase and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND). The next diagram shows general strategy used in order to analyze the betalactamse sequences:  
+To create this dataset i used [this manually curated database for betalactamases](https://pubmed.ncbi.nlm.nih.gov/28719998/). The quantitative properties were generated with the [ProtParam module of bioPython](https://biopython.org/docs/1.76/api/Bio.SeqUtils.ProtParam.html). The qualitative properties were extracted by scrapping the text of the BetaLactamaseDataBase and complemented with taxonomic annotations generated with [Diamond2 against the Genome Taxonomy DataBase](https://github.com/hbckleikamp/GTDB2DIAMOND). The next diagram shows general strategy used in order to analyze the betalactamse sequences:  
 
 
 <p align="center">
@@ -56,7 +57,7 @@ The next noteboks contain the code used to perform this analysis
 
 ## Second part: Structural and functional analysis between beta lactam antibiotics and beta lactamases   
 
-In the second part of this thesis i constructed a dataset (provided as a dataframe) that consist in 2,383 values of minimum inhibitory concentrations (MICs) of 21 beta lactam antibiotics and their associated betalactamases. The date comes from a  [second manually curated database for betalactamases that contain functional information](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6496087/). 
+In the second part of this thesis i constructed a dataset (provided as a dataframe) that consist in 2,383 values of minimum inhibitory concentrations (MICs) of 21 beta lactam antibiotics and their associated betalactamases. The data comes from a  [second manually curated database for betalactamases that contain functional information](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6496087/). 
 
 <p align="center">
   <img src="https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/pipe2.png" alt="Texto alternativo">
