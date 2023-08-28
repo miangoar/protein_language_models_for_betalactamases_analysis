@@ -1,6 +1,7 @@
 # Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity
 
-**🚨🚨🚨 WARNING - Repository under construction - WARNING🚨🚨🚨**
+
+### <div align="center">  :construction::construction::construction::construction: REPOSITORY UNDER CONSTRUCTION :construction::construction::construction::construction: </div>
 
 ![image](https://github.com/miangoar/protein_language_models_for_betalactamases_analysis/blob/main/images/ibt.png)
 <p align="center">
