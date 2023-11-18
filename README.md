@@ -50,7 +50,7 @@ To create this dataset i used [this manually curated database for betalactamases
 
 *A total of 25,809 sequences curated by BLDB were analyzed, this DB recognizes 290 enzymatic families. All sequences that did not map to these families were labeled as "Others." As references, signature sequences were estimated for each (sub)class of beta-lactamases (7 sequences), and sequences from ancestors and a consensus were included (5 sequences). Additionally, 201 sequences from a putative new subclass of metallo-beta-lactamases called VarG and the beta-lactamase LRA-5, which has been suggested as a representative of a putative new subclass A3, were included. For a total of 26,023 sequences, protein-level embeddings were extracted conventionally using seven protein language models. To visualize the derived organization from the embeddings, three dimensionality reduction algorithms were used to create two dimensions in which different qualitative and quantitative properties were mapped. Finally, a random sampling of 100 sequences was performed for each (sub)class, and their embeddings were analyzed using two different distance metrics and k-means to evaluate the detection capability of the beta-lactamase classes.*
 
-The next noteboks contain the code used to perform this analysis. You can use [nbviewer](https://nbviewer.jupyter.org/) to render the notebooks if GitHub can't do it.
+The next noteboks contain the code used to perform this analysis. You can use [nbviewer](https://nbviewer.jupyter.org/) to render the notebooks if GitHub can't do it. Also you can open the notebook and replace the "github.com" domain by ["nbsanity.com"] domain.(https://nbsanity.com/)
 
 | Notebook |
 |-----------|
