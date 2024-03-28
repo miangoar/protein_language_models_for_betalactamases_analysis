@@ -1,4 +1,3 @@
-### <div align="center">  :construction::construction: REPOSITORY UNDER CONSTRUCTION :construction::construction: </div>
 
 # Comparative evaluation of protein language models for betalactamase classification and prediction of their catalytic activity
 
